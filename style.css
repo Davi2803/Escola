@@ -1,0 +1,14 @@
+ body{
+         background: #626262;
+        }
+            p{
+                text-align: center; 
+             }
+            em strong{
+                     color: aqua;
+             }
+
+                head{
+                 color:darkgreen; background-color:firebrick;
+                }
+
