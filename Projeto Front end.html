@@ -8,18 +8,17 @@
 
 
                 body{
-                    background-color: gainsboro;
+                    background-color:azure;
                 }
 
                     #banner{ width: 100%;
             
                         }
 
-                h1{
+                .titulo-centralizado{
+
                     text-align: center;
-
                 }
-
 
                 h2{
                     color: black; ;font-size: 30px; text-align: center; height: 150px;
@@ -44,20 +43,32 @@
          
          .beneficios{
 
-            background: white;
+             background: sandybrown;
+         }
+
+         ul{
+
+            display: inline-block;
+            vertical-align: top;
+            width: 20%;
+            margin-right:15%;
+
          }
 
 
          .principal{
 
-            background: gray;
+            background:lightgray;
+            padding: 30px;
          }
 
-         h3{
-            text-align:center;
+         .titulo-principal{
+
+            padding-left: 20px;
 
          }
 
+        
       
         </style>
 
@@ -65,13 +76,13 @@
     <body>
 
         <header>
-             <h1>Barbearia Alura</h1>
+             <h1 class="titulo-principal">Barbearia Alura</h1>
         </header>
 
              <img id="banner" src="banner.avif">
 
                 <div class="principal">
-                 <h2>Sobre a Barbearia Alura</h2>
+                 <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
 
                       <p>Localizada no coração da cidade a <strong>Barberia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
                          Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
@@ -85,7 +96,7 @@
 
                 <div class="Benefícios">
 
-                    <h3>Benefícios</h3> 
+                    <h3 class="titulo-centralizado">Benefícios</h3> 
                     
                     <ul>
                         <li class="itens">*Atendimento diferente</li>
