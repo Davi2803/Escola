@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Faça seu login</h2>
+        <form action="login.php" method="POST" onsubmit="return validateForm()">
+         <input type="text" name="username" id="username" placeholder="Usuário" required>
+         <input type="password" name="password" id="password" placeholder="Senha" required>
+         <button type="submit">Entrar</button>
+        </form> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
