@@ -1,0 +1,52 @@
+body{
+    background-color: b;
+    font-family:'Times New Roman', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.caixinha{
+    background-color: yellow;
+    padding: 20px 30px 0 0;
+    border-radius: 25px;
+    border: solid;
+    box-shadow: 0 0 010px black;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    padding: 10px;
+    background-color: rgb(139, 57, 216);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
